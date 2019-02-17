@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quotes</title>
+</head>
+<body>
+	<h1>Here are the awesome quotes!</h1>
+	
+	<% for(var i in users) {  %>
+		<p><%= users[i].name %></p>
+		<p><%= users[i].quote %></p>
+		<p><%= users[i].createdAt %></p> 
+	<% } %>
+	
+</body>
+</html>
